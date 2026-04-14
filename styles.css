@@ -1,8 +1,9 @@
 body {
   display: flex;
+flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f0f0f0;
 }
 
@@ -43,9 +44,12 @@ button:hover {
   background-color: #8580bd;
 }
 
-.instruction {
-display: flex;
+.Instruction {
+  /* This ensures the text has some space below the calculator */
+  margin-top: 20px; 
+  display: flex;
+  flex-direction: column; /* Stacks the list items vertically too */
   justify-content: center;
   align-items: center;
-  padding: 20;
+  padding: 20px;
 }
