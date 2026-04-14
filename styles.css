@@ -42,10 +42,3 @@ button {
 button:hover {
   background-color: #8580bd;
 }
-
-p {
-display: flex;
-  justify-content: center;
-  align-items: center;
-font-style:Arial;
-}
