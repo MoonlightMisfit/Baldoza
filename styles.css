@@ -40,13 +40,7 @@ button {
   cursor: pointer;
 }
 
-.button1 {
-  background-color: transparent;
-  border: none;
-  color: transparent; 
-}
 
-}
 
 .Instruction {
   /* This ensures the text has some space below the calculator */
@@ -56,4 +50,6 @@ button {
   justify-content: center;
   align-items: center;
   padding: 20px;
+font-family: Courier;
+font-weight: Bold;
 }
